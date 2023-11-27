@@ -10,9 +10,9 @@
 
 ## Материалы
 1. [Codeblocks](https://github.com/seregabalyuk/OlympiadProgram/tree/CodeBlocks): ветка с материалами Codeblocks:
-   - Установка
+   - [Установка](https://github.com/seregabalyuk/OlympiadProgram/tree/CodeBlocks/install)
 2. [с++](https://github.com/seregabalyuk/OlympiadProgram/tree/c++): ветка с материалами по с++:
-   - Основы
+   - [Основы](https://github.com/seregabalyuk/OlympiadProgram/tree/c++/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B)
 3. algorithm: ветка с алгоритмами (пока не добавил)
 4. homework: ветка с заданиями (пока не добавил)
 
