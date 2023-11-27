@@ -1,6 +1,6 @@
 # Основы
 Изначальная программа выглядит так
-\'''c++
+\```c++
 #include <iostream>
 
 using namespace std;
@@ -8,4 +8,4 @@ using namespace std;
 int main() {
     cout << "Hello world!";
 }
-\'''
+\```
