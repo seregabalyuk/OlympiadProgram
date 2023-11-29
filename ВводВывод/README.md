@@ -77,3 +77,5 @@ int main() {
     return 0;
 }
 ```
+
+![](https://i.imgur.com/Zs4z3p5.png)
