@@ -72,3 +72,153 @@ int main() {
     }
 }
 ```
+# Условия
+
+Условия в с++ задаются с помощью слова **`if`**.
+Имеет такой синтаксис:
+
+```c++
+if (/*Условие, то есть выражение которое возращает bool*/) 
+{ // начало тело
+
+    ... // код, который выполняется если условие = true
+
+} // конец тела
+```
+
+Пример:
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Enter your age: ";
+    int age;
+    cin >> age;
+    if (age <= 0 || age >= 130) { // вспоминаем операторы
+        cout << "You have unreal age! Cool!\n";
+    }
+}
+```
+
+Ещё можно скобки не писать, тогда телом условия будет следущая команда после. Пример:
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Enter your age: ";
+    int age;
+    cin >> age;
+    if (age <= 0 || age >= 130)
+        cout << "You have unreal age! Cool!\n";
+}
+```
+
+# Если не
+
+Так же нам хочется, чтобы пре не выполнении условия выполнялся другой код.
+С этим нам поможет слово **`else`**. 
+Имеет такой синтаксис:
+
+```c++
+if (/*Условие, то есть выражение которое возращает bool*/) 
+{ // начало тело
+
+    ... // код, который выполняется если условие = true
+
+} else { // конец тела, начало нового
+    
+    ... // код, который выполняется если условие = false
+
+} // конец тела
+```
+
+Пример:
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Enter your age: ";
+    int age;
+    cin >> age;
+    if (age <= 0 || age >= 130) {
+        cout << "You have unreal age! Cool!\n";
+    } else {
+        cout << "Yor age is good.\n";
+    }
+}
+```
+
+Аналогично **`if`**, **`else`** при отсутвии скобок считает телом следущую команду после. Пример:
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Enter your age: ";
+    int age;
+    cin >> age;
+    if (age <= 0 || age >= 130) 
+        cout << "You have unreal age! Cool!\n";
+    else
+        cout << "Yor age is good.\n";
+}
+```
+
+> **Замечание:** `if {} else {}` являются одной командой.
+
+Из замечания следует интересное свойство.
+Можно написать несколько поледовательных условий. Пример:
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Enter your age: ";
+    int age;
+    cin >> age;
+    if (age <= 0 || age >= 130) {
+        cout << "You have unreal age! Cool!\n";
+    } else if (age <= 18) {
+        cout << "You are child.\n";
+    } else if (age <= 60) {
+        cout << "You are adult.\n";
+    } else {
+        cout << "You are old.\n";
+    }
+}
+```
+
+То же самое, но подругому:
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Enter your age: ";
+    int age;
+    cin >> age;
+    if (age <= 0 || age >= 130)
+        cout << "You have unreal age! Cool!\n";
+    else if (age <= 18)
+        cout << "You are child.\n";
+    else if (age <= 60)
+        cout << "You are adult.\n";
+    else
+        cout << "You are old.\n";
+}
+```
