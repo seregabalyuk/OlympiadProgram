@@ -56,7 +56,7 @@ UwU
 >using namespace std; // пишем до main
 >
 >int main () {
->   std::cout << "Hello world!\n";
+>   cout << "Hello world!\n";
 >}
 >```
 >
