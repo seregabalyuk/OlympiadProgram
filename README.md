@@ -20,7 +20,7 @@
    - [Std](https://github.com/seregabalyuk/OlympiadProgram/tree/c++/std)
    
 3. algorithm: ветка с алгоритмами (пока не добавил)
-4. homework: ветка с заданиями (пока не добавил)
+4. [homework](https://github.com/seregabalyuk/OlympiadProgram/tree/homework): ветка с домашними заданиями
 
 ### как открыть
 Чтобы посмотреть материалы, нажмите на ветку и выбирете нужную
