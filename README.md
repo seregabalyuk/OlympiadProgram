@@ -19,7 +19,7 @@
    - [Функции](https://github.com/seregabalyuk/OlympiadProgram/tree/c++/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)
    - [Std](https://github.com/seregabalyuk/OlympiadProgram/tree/c++/std)
    
-3. algorithm: ветка с алгоритмами (пока не добавил)
+3. [algorithms](https://github.com/seregabalyuk/OlympiadProgram/tree/algorithms): здесь будут записи лекций
 4. [homework](https://github.com/seregabalyuk/OlympiadProgram/tree/homework): ветка с домашними заданиями
     - [Неделя 1](https://github.com/seregabalyuk/OlympiadProgram/tree/homework/1)
 
