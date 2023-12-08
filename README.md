@@ -21,6 +21,7 @@
    
 3. algorithm: ветка с алгоритмами (пока не добавил)
 4. [homework](https://github.com/seregabalyuk/OlympiadProgram/tree/homework): ветка с домашними заданиями
+    - [Неделя 1](https://github.com/seregabalyuk/OlympiadProgram/tree/homework/1)
 
 ### как открыть
 Чтобы посмотреть материалы, нажмите на ветку и выбирете нужную
